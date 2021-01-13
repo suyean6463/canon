@@ -1,0 +1,306 @@
+/*font-family: 'Manrope', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;*/
+
+/*body*/
+body{background-color: black; color: white;}
+
+/*anchor*/
+.anchor{
+    position: fixed; z-index: 101;
+    top: 32px; right: 100px;
+}
+.anchor li{float: left; margin-left: 30px;}
+.anchor li a{
+    color: #aeaeae; font-family: 'Manrope', sans-serif;
+    font-weight: bold; font-size: 15px; transition: 0.5s;
+}
+.anchor li a:hover{color: #e21a22;}
+
+/*main_info*/
+#main_info{width: 100%; position: relative;}
+.inb{width: 100%; padding-top: 220px;}
+.inb li{display: none; position: relative; text-align: center;}
+.inb li.show{display: block;}
+.inb li img{
+    width: 950px; margin: 0 auto; transition: all 0.5s; animation: ani1 1s; animation-timing-function: ease-out; 
+} 
+@keyframes ani1{
+    0%{ 
+        width: 80%;
+    }
+    50%{
+        width: 65%; transform: perspective(600px) rotateY(-10deg);
+    }
+    100%{
+        width: 950px; transform: rotateY(0deg);
+    }
+}
+.inb li h1{
+    font-family: 'Manrope', sans-serif; font-weight: bold; font-size: 110px; color: white;
+    position: absolute; top: 16%; left: 50%; letter-spacing: 3px; margin-left: -570px;
+}
+.inb li.show p{
+    font-family: 'Noto Sans KR', sans-serif; font-size: 20px; color: #fff; opacity: 0;
+    position: absolute; top: 47%; left: 50%; letter-spacing: 3px; text-shadow: 1px 1px 1px #ccc; margin-top: 30px; margin-left: -570px;
+}
+.inb li.show a{
+    font-family: 'Manrope', sans-serif; font-weight: bold; font-size: 14px; color: white; margin-left: -570px;
+    display: block; border: 1px solid #fff; width: 250px; padding: 16px 0; text-align: center; position: absolute; top: 62%; left: 50%; transition: 0.5s; opacity: 0;
+}
+.inb li a:hover{border: 1px solid #e21a22; background-color: #e21a22;}
+
+.i_btn{
+    cursor: pointer; font-family: 'Manrope', sans-serif; color: white; font-size: 18px; font-weight: bold; opacity: 0;
+}
+.i_btn .i_prev p{position: fixed; top: 46%; left: 100px; transition: 0.5s;}
+.i_btn .i_prev div{
+    position: fixed; top: 46%; left: 0; margin-top: 12px;
+    width: 80px; height: 2px; background-color: #7f7f7f; transition: 0.5s;
+}
+.i_btn .i_next P{position: fixed; top: 46%; right: 100px; transition: 0.5s;}
+.i_btn .i_next div{
+    position: fixed; top: 46%; right: 0; margin-top: 12px;
+    width: 80px; height: 2px; background-color: #7f7f7f; transition: 0.5s;
+}
+.i_btn .scroll{position: fixed; bottom: 50px; text-align: center; left: 50%; margin-left: -70px;}
+.i_btn .scroll p{color: white; margin-top: 20px; font-size: 12px; letter-spacing: 1px;}
+
+/*video*/
+#dslr_info{width: 100%; position: relative; margin-top: 300px; }
+#video{width: 100%; position: relative; top: 0;}
+.di_txt h1{
+    font-family: 'Manrope', sans-serif; color: white; font-weight: bold;
+    position: absolute; top: 18%; left: 50%; margin-left: -380px; line-height: 60px; font-size: 40px;
+}
+.di_txt p{
+    position: absolute; top: 48%; left: 50%; margin-left: -380px; font-weight: bold;
+    line-height: 36px; font-size: 24px; color: #999; font-family: 'Noto Sans KR', sans-serif;
+}
+.di_txt p:nth-child(3){
+    position: absolute; top: 48%; left: 50%; margin-left: 50px; font-weight: bold;
+    line-height: 36px; font-size: 24px; color: #999; font-family: 'Noto Sans KR', sans-serif;
+}
+.di_txt h3{
+    font-family: 'Manrope', sans-serif; color: white; font-weight: bold;
+    position: absolute; top: 65%; left: 50%; margin-left: -380px; font-size: 60px; line-height: 50px;
+}
+.di_txt h3:nth-child(5){
+    font-family: 'Manrope', sans-serif; color: white; font-weight: bold;
+    position: absolute; top: 65%; left: 50%; margin-left: 50px; font-size: 60px; line-height: 50px;
+}
+
+/*dslr*/
+#dslr{
+    width: 100%; padding-top: 200px; text-align: center; position: relative;
+}
+#dslr .bg1{position: sticky; top: 40%; z-index: 80;}
+#dslr .title{
+    font-weight: normal; font-size: 18px; text-align: center;
+    position: absolute; z-index: 90;
+    top: 265px; left: 50%; margin-left: -130px;
+}
+.dslr1{position: relative; z-index: 90; margin-top: 200px; _display: none;}
+.dslr1 img{width: 45%; margin-left: 50%;}
+.dslr1 h1{
+    position: absolute; top: 50px; left: 18%; line-height: 80px;
+    font-family: 'Manrope', sans-serif; text-align: left; font-size: 90px;
+} 
+.dslr1 p{
+    position: absolute; top: 300px; left: 18%; color: #999; line-height: 40px;
+    font-family: 'Manrope', sans-serif; text-align: left; font-size: 18px;
+} 
+.dslr1 a{
+    font-family: 'Manrope', sans-serif; font-weight: bold; font-size: 14px; color: white;
+    display: block; border: 1px solid #fff; width: 250px; padding: 16px 0; text-align: center; position: absolute; top: 500px; left: 18%; transition: 0.5s;
+}
+.dslr1 a:hover{border: 1px solid #e21a22; background-color: #e21a22;}
+
+.dslr2{position: relative; z-index: 90; margin-top: 200px; display: none;}
+.dslr2 img{width: 45%; margin-left: 50%;}
+.dslr2 h1{
+    position: absolute; top: 35px; left: 18%; line-height: 80px;
+    font-family: 'Manrope', sans-serif; text-align: left; font-size: 90px;
+} 
+.dslr2 p{
+    position: absolute; top: 285px; left: 18%; color: #999; line-height: 40px;
+    font-family: 'Manrope', sans-serif; text-align: left; font-size: 18px;
+} 
+.dslr2 a{
+    font-family: 'Manrope', sans-serif; font-weight: bold; font-size: 14px; color: white;
+    display: block; border: 1px solid #fff; width: 250px; padding: 16px 0; text-align: center; position: absolute; top: 485px; left: 18%; transition: 0.5s;
+}
+.dslr2 a:hover{border: 1px solid #e21a22; background-color: #e21a22;}
+
+.dslr3{position: relative; z-index: 90; margin-top: 200px; display: none;}
+.dslr3 img{width: 45%; margin-left: 50%;}
+.dslr3 h1{
+    position: absolute; top: 35px; left: 18%; line-height: 80px;
+    font-family: 'Manrope', sans-serif; text-align: left; font-size: 90px;
+} 
+.dslr3 p{
+    position: absolute; top: 285px; left: 18%; color: #999; line-height: 40px;
+    font-family: 'Manrope', sans-serif; text-align: left; font-size: 18px;
+} 
+.dslr3 a{
+    font-family: 'Manrope', sans-serif; font-weight: bold; font-size: 14px; color: white;
+    display: block; border: 1px solid #fff; width: 250px; padding: 16px 0; text-align: center; position: absolute; top: 485px; left: 18%; transition: 0.5s;
+}
+.dslr3 a:hover{border: 1px solid #e21a22; background-color: #e21a22;}
+
+
+.d_bar1{
+    position: absolute; top: 85%; left: 18%; z-index: 91; margin: 10px 0;
+    width: 7%; height: 4px; background-color: #555; transition: 0.5s;
+}
+.d_bar2{
+    position: absolute; top: 85%; left: 25%; z-index: 91; margin: 10px 0;
+    width: 7%; height: 4px; background-color: #555; transition: 0.5s;
+}
+.d_bar3{
+    position: absolute; top: 85%; left: 32%; z-index: 91; margin: 10px 0;
+    width: 7%; height: 4px; background-color: #555; transition: 0.5s;
+}
+.d_bar.on{background: #e21a22;}
+.d_bar:hover{cursor: pointer; background: #e21a22;}
+
+/*mirrorless*/
+#mless{
+    width: 100%; padding-top: 200px; text-align: center; position: relative;
+}
+#mless .bg2{position: sticky; top: 40%; z-index: 80;}
+#mless .title{
+    font-weight: normal; font-size: 18px; text-align: center;
+    position: absolute; z-index: 90;
+    top: 265px; left: 50%; margin-left: -165.5px;
+}
+.mnb{width: 80%; margin-left: 10%; margin-top: 200px; position: relative; z-index: 90;}
+.mnb div{
+    background: #e21a22; width: 5px; height: 35px; border-radius: 10px;
+    margin-left: 16.66%; margin-bottom: 10px;
+}
+.mnb li{
+    float: left; width: 33.33%; font-weight: bold;
+    font-size: 50px; font-family: 'Manrope', sans-serif;
+}
+.mnb li a{color: #999; transition: 0.5s;}
+.mnb li a:hover{color: #fff;}
+.mnb li.on a{color: #fff;}
+.mless1{position: relative; _display: none;}
+.mless1 .mbg{width: 70%; position: relative; z-index: 90; margin-top: 20px;}
+.mless1 .mc{
+    position: relative; z-index: 90; margin-top: -350px;
+}
+.mless1 p{
+    font-family: 'Noto Sans KR', sans-serif; color: #d9d9d9;
+    font-size: 20px; text-align: left; z-index: 90;
+    position: absolute; bottom: 130px; left: 67%;
+}
+.mless1 a{color: #e21a22; font-size: 16px; font-family: 'Manrope', sans-serif; font-weight: bold;}
+
+.mless2{position: relative; display: none;}
+.mless2 .mbg{width: 70%; position: relative; z-index: 90; margin-top: 20px;}
+.mless2 .mc{
+    position: relative; z-index: 90; margin-top: -100px;
+}
+.mless2 p{
+    font-family: 'Noto Sans KR', sans-serif; color: #d9d9d9;
+    font-size: 20px; text-align: left; z-index: 90;
+    position: absolute; bottom: 130px; left: 67%;
+}
+.mless2 a{color: #e21a22; font-size: 16px; font-family: 'Manrope', sans-serif; font-weight: bold;}
+
+.mless3{position: relative; display: none;}
+.mless3 .mbg{width: 70%; position: relative; z-index: 90; margin-top: 20px;}
+.mless3 .mc{
+    position: relative; z-index: 90; margin-top: -100px;
+}
+.mless3 p{
+    font-family: 'Noto Sans KR', sans-serif; color: #d9d9d9;
+    font-size: 20px; text-align: left; z-index: 90;
+    position: absolute; bottom: 130px; left: 67%;
+}
+.mless3 a{color: #e21a22; font-size: 16px; font-family: 'Manrope', sans-serif; font-weight: bold;}
+
+/*lens*/
+#lens{
+    width: 100%; padding-top: 200px; text-align: center; position: relative;
+}
+#lens .bg3{position: sticky; top: 40%; z-index: 80;}
+#lens .title{
+    font-weight: normal; font-size: 18px; text-align: center;
+    position: absolute; z-index: 90;
+    top: 265px; left: 50%; margin-left: -97.3px;
+}
+.swiper-slide{margin-top: 200px;}
+.swiper-slide h4{
+    text-align: left; margin-left: 20%;
+    font-size: 28px; color: #d9d9d9; font-family: 'Manrope', sans-serif;
+}
+.swiper-slide h1{
+    text-align: left; margin-left: 20%; font-family: 'Manrope', sans-serif;
+    margin-top: 100px; font-size: 100px; line-height: 100px;
+}
+.swiper-slide p{
+    text-align: left; margin-left: 20%; font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px; line-height: 30px; margin-top: 30px; margin-bottom: 50px; color: #949494;
+}
+.swiper-slide p a{color: #e21a22; font-size: 16px; font-family: 'Manrope', sans-serif; font-weight:bold;}
+.swiper-slide img{
+    width: 400px; margin-left: 60%;
+    position: absolute; top: 0; left: 0; z-index: 85;
+}
+
+/*compact*/
+#compact{
+    width: 100%; padding-top: 200px; text-align: center; position: relative;
+}
+#compact .bg4{position: sticky; top: 40%; z-index: 80;}
+#compact .title{
+    font-weight: normal; font-size: 18px; text-align: center;
+    position: absolute; z-index: 90;
+    top: 265px; left: 50%; margin-left: -186.82px;
+}
+#compact>div{width: 100%; margin-top: 200px; position: relative; z-index: 90; height: 688px;}
+#compact>div>div{
+    width: 30%; background-color: #f1f3f4; height: 100%; position: relative;
+    float: left; margin-right: 2.5%; margin-bottom: 200px;
+}
+#compact>div>div:nth-child(1){margin-left: 2.5%;}
+
+#compact>div .cc p{
+    color: black; font-size: 15px; font-family: 'Noto Sans KR', sans-serif;
+    text-align: left; margin-top: 50px; margin-left: 30px;
+}
+#compact>div .cc h1{
+    color: black; font-size: 60px; font-family: 'Manrope', sans-serif; font-weight: bold;
+    line-height: 70px; text-align: left; margin-top: 10px; margin-left: 30px;
+}
+#compact>div .cc .img_cc{width: 75%; margin-top: 100px;}
+#compact>div .cc2 .img_cc{margin-top: 165px;}
+#compact>div .cc3 .img_cc{margin-top: 165px;}
+#compact>div .cc .img_arrow{position: absolute; top: 180px; left: 48%;}
+#compact>div .cc2 .img_arrow{left: 66%;}
+#compact>div .cc3 .img_arrow{left: 68%;}
+
+/*magazine*/
+#magazine{
+    width: 100%; height: 2000px; background-color: #efefef; margin-top: 200px; overflow: hidden; padding-bottom: 200px;
+}
+#magazine>h1{
+    font-family: 'Manrope', sans-serif; font-size: 100px; color: black;
+    padding-top: 100px; margin-left: 150px;
+}
+#mg_container{width: 1200px; margin: 0 auto; margin-top: 50px; position: relative;}
+.mg{
+    float: left; width: 380px; position: absolute; top: 0; left: 0;
+}
+.mg:hover{cursor: pointer; box-shadow: 15px 15px 50px gray;}
+.mg img{width: 100%;}
+.mg_txt{background-color: #fff; padding: 50px 30px 60px 30px;}
+.mg_txt h3{color: black; font-family: 'Manrope', sans-serif;}
+.mg_txt h1{color: black; font-family: 'Noto Sans KR', sans-serif; font-weight: normal; font-size: 28px; margin-top: 20px;}
+.mg2{left: 400px;}
+.mg3{left: 800px;}
+.mg4{top: 780px;}
+.mg5{top: 820px; left: 400px;}
+.mg6{top: 780px; left: 800px;}

@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+#wrap {
+    width: 100%; height: 16800px;
+}
+
+/*content*/
+#content {
+    width: 100%; height: 16800px;
+    background: #000000;
+}
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 16800px;
+}
+.con1 {
+    background: url(../img/compact/sub2img/img1.png)no-repeat;
+    width: 100%; height: 1650px;
+}
+.con2 {
+    background: url(../img/compact/sub2img/img2.png)no-repeat;
+    width: 100%; height: 1580px;
+}
+.con3 {
+    background: url(../img/compact/sub2img/img3.png)no-repeat;
+    width: 100%; height: 1510px;
+    position: relative;
+    margin-top: -100px;
+}
+.con3 h1 {
+    color: #fff;
+    position: absolute;
+    _float: left;
+    top: 15%; left: 10%;
+    font-size: 54px;
+    font-family: 'Manrope', sans-serif;
+}
+.con3 p {
+    color: #CDCDCD;
+    position: absolute;
+    top: 25%; left: 10%; 
+    line-height: 35px;
+    font-size: 22px;
+    padding-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con4 {
+    background: url(../img/compact/sub2img/img4.png)no-repeat;
+    width: 100%; height: 2080px;
+    position: relative; 
+}
+.con4 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px;
+    top: 7%; left: 10%;
+    font-family: 'Manrope', sans-serif;
+}
+.con4 p {
+    color: #CDCDCD;
+    position: absolute;
+    line-height: 35px;
+    font-size: 22px;
+    top: 19%; left: 10%;
+    padding-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con5 {
+    background: url(../img/compact/sub2img/img5.png)no-repeat;
+    width: 100%; height: 1200px;
+    position: relative;
+}
+.con5 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px;
+    left: 10%; top: 10%;
+    font-family: 'Manrope', sans-serif;
+}
+.con5 p {
+    color: #CDCDCD;
+    position: absolute;
+    line-height: 35px;
+    font-size: 22px;
+    padding-top: 10px;
+    left: 10%; top: 25%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con6 {
+    background: url(../img/compact/sub2img/img6.png)no-repeat;
+    width: 100%; height: 1420px;
+}
+.con7 {
+    background: url(../img/compact/sub2img/img7.png)no-repeat;
+    width: 100%; height: 2140px;
+    position: relative;
+}
+.con7 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px;
+    left: 10%; top: 5%;
+    font-family: 'Manrope', sans-serif;
+}
+.con7 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 13%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con8 {
+    background: url(../img/compact/sub2img/img8.png)no-repeat;
+    width: 100%; height: 965px;
+    position: relative;
+}
+.con8 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px;
+    left: 10%; top: 7%;
+    font-family: 'Manrope', sans-serif;
+}
+.con8 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 25%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con9 {
+    background: url(../img/compact/sub2img/img9.png)no-repeat;
+    width: 100%; height: 710px;
+}
+.con10 {
+    background: url(../img/compact/sub2img/img10.png)no-repeat;
+    width: 100%; height: 795px;
+    position: relative;
+    margin-top: 200px;
+}
+.con10 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    left: 10%; top: 5%;
+    font-family: 'Manrope', sans-serif;
+}
+.con10 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 25%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con11 {
+    background: url(../img/compact/sub2img/img11.png)no-repeat;
+    width: 100%; height: 805px;
+    position: relative;
+}
+.con11 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    left: 10%; top: 8%;
+    font-family: 'Manrope', sans-serif;
+}
+.con11 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 29%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con12 {
+    background: url(../img/compact/sub2img/img12.png)no-repeat; 
+    width: 100%; height: 1440px;
+    position: relative;
+    margin-top: 50px;
+}
+.con12 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    left: 10%; top: 5%;
+    font-family: 'Manrope', sans-serif;
+}
+.con12 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 17%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con13 {
+    background: url(../img/compact/sub2img/img13.png)no-repeat;
+    width: 100%; height: 120px;
+    _margin: 0 auto;
+    position: relative;
+    left: 6%; top: 130px;
+}

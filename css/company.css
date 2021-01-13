@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Jal_Onuel';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#nav{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f9f9f9;
+    padding: 15px 0;
+    padding-top: 97px;
+}
+#nav a{
+    font-size: 12px;
+    color: #5d5d5d;
+}
+#nav a:first-child{
+    padding-right: 16px;
+    background: url(../img/arr_supp_next2.png) no-repeat right center;
+}
+#nav a:last-child{
+    margin-left: 16px;
+}
+#summary{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 54px 0;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+#summary .company_title{
+    border-bottom: 1px solid #eee;
+}
+.company_title h1{
+    font-size: 35px;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: block;
+    padding-bottom: 20px;
+}
+.inner_info{
+    margin-top: 20px;
+}
+.company_info{
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+}
+.company_info .line_red{
+    display: block;
+    width: 16px;
+    height: 1px;
+    margin-top: 15px;
+    background: #e84d4e;
+}
+
+.company_info h3{
+    font-size: 23px;
+    line-height: 24px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.company_info .strong{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #000;
+    line-height: 17px;
+}
+.company_info p{
+    margin-top: 15px;
+    color: #747474;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.promise{
+    border: none;
+}
+#culture{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 54px 0;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+#culture h1{
+    border-bottom: none;
+}
+#culture .culture_text p{
+    margin-top: 15px;
+    color: #747474;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#culture .culture_picture{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+    border-bottom: none;
+}
+#culture .culture_picture .picture_left{
+    float: left;
+    width: 50%;
+}
+#culture .culture_picture .picture_right{
+    float: left;
+    width: 50%;
+}
+#culture .culture_picture img{
+    float: left;
+    margin-right: 15px;
+}
+#culture .culture_picture p{
+    line-height: 21px;
+    margin-left: 15px;
+    padding-top: 55px;
+    color: #747474;
+}
+#business{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 54px 0;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+#business .business_info{
+    overflow: hidden;
+    margin-top: 60px;
+}
+#business .business_info li{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+#business .business_info li p{
+    color: #747474;
+    font-size: 12px;
+    margin-top: 20px;
+}
+#ceo{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 54px 0;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+}
+#ceo .ceo_img{
+    float: left;
+    width: 405px;
+}
+#ceo .ceo_text{
+    float: left;
+    margin-left: 15px;
+    width: 686px;
+    font-size: 13px;
+    line-height: 19px;
+}
+#map{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 54px 20px;
+    width: 100%;
+}
+#map h3{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    line-height: 16px;
+}
+#map .map_info ul{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#map .map_info ul li{
+    float: left;
+    color: #747474;
+    font-size: 14px;
+    line-height: 23px;
+}
+#map .map_info ul li:last-child{
+    margin-left: 60px;
+}
+@media all and (max-width:1200px){
+    #ceo .ceo_img{
+        width: 48%;
+    }
+    #ceo .ceo_img img{
+        width: 100%;
+    }
+    #ceo .ceo_text{
+        width: 50%;
+    }
+}
+@media all and (max-width:960px){
+    #nav{
+        padding:97px 20px 15px 20px;
+    }
+    #summary{
+        padding:54px 20px;
+    }
+    #culture{
+        padding:54px 20px;
+    }
+    #business{
+        padding:54px 20px;
+    }
+    #ceo{
+        padding:54px 20px;
+    }
+    #ceo .ceo_img{
+        display: none;
+    }
+    #ceo .ceo_text{
+        width: 100%;
+    }
+    #map{
+        padding:54px 20px;
+    }
+    #culture .culture_picture{
+        text-align: center;
+    }
+    #culture .culture_picture img{margin: 0;margin-left: 10%;}
+    #culture .culture_picture img{
+        float: none;
+    }
+    #business .business_info li{
+        width: 50%;
+    }
+    #business .business_info li:last-child{
+        margin: 0 25%;
+    }
+    #map .api iframe{
+        height: auto;
+    }
+}
+@media all and (max-width:560px){
+    #culture .culture_text{display: none;}
+    #culture .culture_picture img{margin: 0;margin-left: 10%;}
+    #business .business_info li p{
+        width: 80%;
+        margin: 10%;
+    }
+    #ceo{display: none;}
+    img{width: 80%;}
+    .footer img{width: 100%;}
+}

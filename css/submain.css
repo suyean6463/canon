@@ -1,0 +1,543 @@
+@charset "utf-8";
+#wrap {}
+
+/*키이미지*/
+#keyimage {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: url(../img/compact/submainimg/bg2.png) center no-repeat;
+    background-size: cover;
+    transition: all 0.8s;
+}
+#keyimage .keyimage {}
+.keyimage .key-txt {
+    width: 100%;
+    position: absolute; 
+    left: 55%; top: 60%;
+    transform: translate(-50%, -50%);
+    _color: #fff;
+    _text-align: center;
+}
+.keyimage .key-txt h1 {
+    margin-bottom: 50px;
+    font-size: 80px;
+    color: #dedede;
+    font-family: 'Manrope', sans-serif;
+}
+.keyimage .key-txt p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    color: #dedede;
+}
+
+/*content*/
+#content {
+    width: 100%; _height: 1000px; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #000;
+    transition: all 0.8s;
+}
+#content .content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content .content-txt {
+    text-align: left;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 100px;
+}
+.content-txt h1 {
+    font-size: 36px;
+    font-family: 'Manrope', sans-serif;
+    color: #dedede;
+}
+
+.content .con1 {
+    width: 100%;max-height: 600px;
+    margin-bottom: 200px;
+    background: #111;
+    transition: all 0.8s;
+}
+.con1 .front {
+    position: relative;
+    width: 100%; height: 600px;
+}
+.con1 .front .img1 {
+    position: absolute;
+    top: 130px; left: 10%;
+    transition: all 0.8s;
+}
+.con1 .front .img1:hover {
+    top: 100px;
+}
+.con1 .front .img1 img {
+    width: 100%;
+}
+.con1 .front .txt {
+    position: absolute;
+    top: 200px; right: 10%;
+}
+.con1 .front h2 {
+    color: #dedede;
+    font-size: 46px;
+    font-family: 'Manrope', sans-serif;
+}
+.con1 .front p {
+    color: #dedede;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 50px;
+}
+.con1 .front li {
+    float: left;
+    width: 300px; height: 50px;
+    line-height: 50px;
+    border: 1px solid #dedede;
+    transition: all 0.5s;
+}
+.con1 .front li:hover {
+    border: 1px solid #e21a22;
+    background: #e21a22;
+    border: 0;
+}
+.con1 .front li a {
+    color: #dedede;
+    font-size: 16px;
+    padding: 0 120px 0 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.content .con2 {
+    width: 100%; height: 600px;
+    margin-bottom: 200px;
+    background: #111;
+    transition: all 0.8s;
+}
+.con2 .front {
+    position: relative;
+    width: 100%;
+}
+.con2 .front .img2 {
+    position: absolute;
+    top: 130px; right: 10%;
+    transition: all 0.8s;
+}
+.con2 .front .img2:hover {
+    top: 100px;
+}
+.con2 .front .img2 img {
+    width: 100%;
+}
+.con2 .front .txt {
+    position: absolute;
+    top: 200px; left: 10%;
+}
+.con2 .front h2 {
+    color: #dedede;
+    font-size: 46px;
+    font-family: 'Manrope', sans-serif;
+}
+.con2 .front p {
+    color: #dedede;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 50px;
+}
+.con2 .front li {
+    float: left;
+    width: 300px; height: 50px; 
+    line-height: 50px;
+    border: 1px solid #fff;
+    transition: all 1.5s;
+}
+.con2 .front li:hover {
+    border: 1px solid #e21a22;
+    background: #e21a22;
+    border: 0;
+}
+.con2 .front li a {
+    color: #dedede;
+    font-size: 16px;
+    padding: 0 120px 0 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+.content .con3 {
+    width: 100%; height: 600px;
+    background: #111;
+    transition: all 0.8s;
+}
+.con3 .front {
+    position: relative;
+    width: 100%;
+}
+.con3 .front .img3 {
+    position: absolute;
+    top: 130px; left: 10%;
+    transition: all 0.8s;
+}
+.con3 .front .img3:hover {
+    top: 100px;
+}
+.con3 .front .img3 img {
+    width: 100%; 
+}
+.con3 .front .txt {
+    position: absolute;
+    top: 200px; right: 10%;
+}
+.con3 .front h2 {
+    color: #dedede;
+    font-size: 46px;
+    font-family: 'Manrope', sans-serif;
+}
+.con3 .front p {
+    color: #dedede;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 50px;
+}
+.con3 .front li {
+    float: left;
+    width: 300px; height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    transition: all 1.5s;
+}
+.con3 .front li:hover {
+    border: 1px solid #e21a22;
+    background: #e21a22;
+    border: 0;
+}
+.con3 .front li a {
+    color: #dedede;
+    font-size: 16px;
+    padding: 0 120px 0 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+/*1200px~ 960px*/
+@media all and (max-width:1200px) {
+    #content {
+        width: 100%; 
+        padding: 50px 5% 100px 5%;
+    }
+    #content .content {
+        width: 100%; 
+    }
+/*    content1*/
+    .con1 .front .img1 {
+        position: absolute;
+        top: 130px; left: 5%;
+    }
+    .con1 .front .img1:hover {
+        top: 100px;
+    }
+    .con1 .front .img1 img {
+        width: 100%;
+    }
+    .con1 .front .txt {
+        position: absolute;
+        top: 200px; right: 5%;
+    }
+    
+/*    content2*/
+    .con2 .front .img2 {
+        position: absolute; 
+        top: 130px; right: 5%;
+    }
+    .con2 .front .img2:hover {
+        top: 100px;
+    }
+    .con2 .front .img2 img {
+        width: 100%;
+    }
+    .con2 .front .txt {
+        position: absolute;
+        top: 200px; left: 5%;
+    }
+    
+/*    content3*/
+    .con3 .front .img3 {
+        position: absolute;
+        top: 130px; left: 5%;
+    }
+    .con3 .front .img3:hover {
+        top: 100px;
+    }
+    .con3 .front .img3 img {
+        width: 100%;
+    }
+    .con3 .front .txt {
+        position: absolute;
+        top: 200px; right: 5%;
+    }
+    
+}
+
+/*    960px~560px*/
+@media all and (max-width:960px) {
+/*    keyimage*/
+    #keyimage {
+        height: 600px;
+    }
+    .keyimage .key-txt h1 {
+        margin-bottom: 50px;
+        font-size: 10vw;
+    }
+    .keyimage .key-txt p {
+        font-size: 1.8vw;
+    }
+    .content-txt h1 {
+        font-size: 4vw;
+    }
+    
+/*    content1*/
+    .content .con1 {
+        height: 400px;
+        margin-bottom: 150px;
+    }
+    .con1 .front .img1 {
+        position: absolute;
+        top: 0; left: 5%;
+    }
+    .con1 .front .img1:hover {
+        top: 0;
+    }
+    .con1 .front .img1 {
+        width: 50%;
+    }
+    .con1 .front .img1 img {
+        width: 100%;
+    }
+    .con1 .front .txt {
+        position: absolute;
+        top: 100px; right: 5%;
+    }
+    .con1 .front .txt h2 {
+        font-size: 5vw;
+    }
+    .con1 .front .txt p {
+        font-size: 2vw;
+        margin-bottom: 30px;
+    }
+    .con1 .front .txt li {
+        width: 100%; height: 40px; 
+        line-height: 40px;
+    }
+    .con1 .front .txt li a {
+        font-size: 1.6vw;
+        padding: 0 40% 0 20px;
+    }
+    
+/*    content2 */
+    .content .con2 {
+        height: 400px;
+        margin-bottom: 150px;
+    }
+    .con2 .front .img2 {
+        position: absolute; 
+        top: 0; right: 5%;
+    }
+    .con2 .front .img2:hover {
+        top: 0;
+    }
+    .con2 .front .img2 {
+        width: 50%;
+    }
+    .con2 .front .img2 img {
+        width: 100%;
+    }
+    .con2 .front .txt {
+        position: absolute;
+        top: 100px; left: 5%;
+    }
+    .con2 .front .txt h2 {
+        font-size: 5vw;
+    }
+    .con2 .front .txt p {
+        font-size: 2vw;
+    }
+    .con2 .front .txt li {
+        width: 60%; height: 40px;
+        line-height: 40px;
+    }
+    .con2 .front .txt li a {
+        font-size: 1.6vw;
+        padding: 0 40% 0 20px;
+    }
+    
+/*    content3*/
+    .content .con3 {
+        height: 400px; 
+        margin-bottom: 150px;
+    }
+    .con3 .front .img3 {
+        position: absolute;
+        top: 0; left: 5%;
+    }
+    .con3 .front .img3:hover {
+        top: 0;
+    }
+    .con3 .front .img3 {
+        width: 50%;
+    }
+    .con3 .front .img3 img {
+        width: 100%;
+    }
+    .con3 .front .txt {
+        position: absolute;
+        top: 100px; right: 5%;
+    }
+    .con3 .front .txt h2 {
+        font-size: 5vw;
+    }
+    .con3 .front .txt p {
+        font-size: 2vw;
+        margin-bottom: 30px;
+    }
+    .con3 .front .txt li {
+        width: 60%; height: 40px;
+        line-height: 40px;
+    }
+    .con3 .front .txt li a {
+        font-size: 1.6vw;
+        padding: 0 40% 0 20px;
+    }
+
+}
+
+
+/*560px~0*/
+@media all and (max-width:560px) {
+    
+    #keyimage {
+        height: 500px;
+    }
+/*    content1*/
+    .content .con1 {
+        height: 400px;
+        margin-bottom: 100px;
+    }
+    .con1 .front .img1 {
+        position: absolute;
+        top: 0; left: 20%;
+    }
+    .con1 .front .img1:hover {
+        top: 0;
+    }
+    .con1 .front .img1 {
+        width: 60%;
+    }
+    .con1 .front .img1 img {
+        width: 100%;
+    }
+    .con1 .front .txt {
+        position: absolute; 
+        top: 320px; left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .con1 .front .txt h2 {
+        font-size: 6vw;
+        margin-bottom: 10px;
+    }
+    .con1 .front .txt p {
+        font-size: 2.5vw;
+    }
+    .con1 .front .txt li {
+        display: none;
+    }
+    
+/*    content2*/
+    .content .con2 {
+        height: 400px;
+        margin-bottom: 100px;
+    }
+    .con2 .front .img2 {
+        position: absolute;
+        top: 0; right: 20%;
+    }
+    .con2 .front .img2:hover {
+        top: 0;
+    }
+    .con2 .front .img2 {
+        width: 60%;
+    }
+    .con2 .front .img2 img {
+        width: 100%;
+    }
+    .con2 .front .txt {
+        position: absolute;
+        top: 320px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .con2 .front .txt h2 {
+        font-size: 5.5vw;
+        margin-bottom: 10px;
+    }
+    .con2 .front .txt p {
+        font-size: 2.5vw;
+    }
+    .con2 .front .txt li {
+        display: none;
+    }
+    
+/*    content3*/
+    .content .con3 {
+        height: 400px;
+        margin-bottom: 0;
+    }
+    .con3 .front .img3 {
+        position: absolute;
+        top: 0; 
+        left: 20%;
+    }
+    .con3 .front .img3:hover {
+        top: 0;
+    }
+    .con3 .front .img3 {
+        width: 60%;
+    }
+    .con3 .front .img3 img {
+        width: 100%;
+    }
+    .con3 .front .txt {
+        position: absolute;
+        top: 320px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .con3 .front .txt h2 {
+        font-size: 5.5vw;
+        margin-bottom: 10px;
+    }
+    .con3 .front .txt p {
+        font-size: 2.5vw;
+    }
+    .con3 .front .txt li {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

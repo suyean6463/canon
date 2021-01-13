@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+#wrap {}
+
+/*content*/
+#content {
+    width: 100%; height: 14600px;
+    background: #000000;
+}
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.con1 {
+    background: url(../img/compact/sub3img/img1.png)no-repeat;
+    width: 100%; height: 1350px;
+}
+.con2 {
+    background: url(../img/compact/sub3img/img2.png)no-repeat;
+    width: 100%; height: 1625px;
+}
+.con3 {
+    background: url(../img/compact/sub3img/img3.png)no-repeat;
+    width: 100%; height: 1600px;
+    position: relative;
+}
+.con3 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px; 
+    left: 10%; top: 15%;
+    font-family: 'Manrope', sans-serif;
+    
+}
+.con3 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 25%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con4 {
+    background: url(../img/compact/sub3img/img4.png)no-repeat;
+    width: 100%; height: 1720px;
+    position: relative;
+}
+.con4 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px;
+    left: 10%; top: 8%;
+    font-family: 'Manrope', sans-serif;
+}
+.con4 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 22%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con5 {
+    background: url(../img/compact/sub3img/img5.png)no-repeat;
+    width: 100%; height: 1600px;
+    position: relative;
+}
+.con5 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px;
+    left: 10%; top: 8%;
+    font-family: 'Manrope', sans-serif;
+}
+.con5 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 18%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con6 {
+    background: url(../img/compact/sub3img/img6.png)no-repeat;
+    width: 100%; height: 1860px;
+    position: relative;
+    margin-top: 50px;
+}
+.con6 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 54px;
+    left: 10%; top: 7%;
+    font-family: 'Manrope', sans-serif;
+}
+.con6 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 16%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con7 {
+    background: url(../img/compact/sub3img/img7.png)no-repeat;
+    position: relative;
+    width: 100%; height: 1170px; 
+}
+.con7 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    left: 10%; top: 8%;
+    font-family: 'Manrope', sans-serif;
+}
+.con7 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 20%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con8 {
+    background: url(../img/compact/sub3img/img8.png)no-repeat;
+    position: relative;
+    width: 100%; height: 665px;
+}
+.con8 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    left: 10%; top: 10%;
+    font-family: 'Manrope', sans-serif;
+}
+.con8 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 32%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con9 {
+    background: url(../img/compact/sub3img/img9.png)no-repeat;
+    position: relative;
+    width: 100%; height: 960px;
+    margin-top: 100px;
+}
+.con9 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    left: 10%; top: 5%;
+    font-family: 'Manrope', sans-serif;
+}
+.con9 .con9_1 {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 22%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con9 .con9_2 {
+    color: #fff;
+    position: absolute;
+    line-height: 35px;
+    font-size: 20px;
+    top: 47%; left: 48.3%;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con9 .con9_3 {
+    color: #CDCDCD;
+    position: absolute;
+    line-height: 30px;
+    font-size: 14px;
+    top: 82%; right: 10%;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.con10 {
+    background: url(../img/compact/sub3img/img10.png)no-repeat;
+    position: relative;
+    width: 100%; height: 1540px;
+}
+.con10 h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    left: 10%; top: 10%;
+    font-family: 'Manrope', sans-serif;
+}
+.con10 p {
+    color: #CDCDCD;
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 10px;
+    left: 10%; top: 20%;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+.con11 {
+    background: url(../img/compact/sub3img/img11.png)no-repeat;
+    width: 100%; height: 120px;
+    position: relative;
+    left: 7%; top: 130px;
+}
